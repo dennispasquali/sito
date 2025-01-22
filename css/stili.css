@@ -3,3 +3,16 @@
     width: 75px;
 }
 
+/* titolo */
+.inspiration {
+    font-family: "Inspiration", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#titolo {    
+    text-align: center;
+    font-size: 200px;
+
+}
+  
