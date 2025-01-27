@@ -15,6 +15,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inspiration&display=swap" rel="stylesheet">
+
+    <!-- google icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
 </head>
 
 <body>
@@ -38,11 +42,69 @@
     </div>
 
     <!-- titolo -->
-    <h1 class="container-sm inspiration" id="titolo">Galeotto fu il libro</h1> 
+    <h1 class="container-sm inspiration" id="titolo">Galeotto fu il libro</h1>
 
     <!-- ricerca -->
-    <div class="container-sm">
+    <div class="container-sm bg-body-tertiary rounded shadow" id="barraRicerca">
+        <form class="row">
+            <div class="col-3">
+                <label class="form-label ricerca_label" for="edt_autore">Autore</label>
+                <div class="input-group">
+                    <div class="input-group-text">
+                        <span class="material-symbols-outlined">
+                            history_edu
+                        </span>
+                    </div>
+                    <input type="text" class="form-control" id="edt_autore" placeholder="Inserisci un autore">
+                </div>
+            </div>
+            <div class="col-3">
+                <label class="form-label ricerca_label" for="edt_titolo">Titolo</label>
+                <div class="input-group">
+                    <div class="input-group-text">
+                        <span class="material-symbols-outlined">
+                            menu_book
+                        </span>
+                    </div>
+                    <input type="text" class="form-control" id="edt_titolo" placeholder="Inserisci un titolo">
+                </div>
+            </div>
+            <div class="col-3">
+                <label class="form-label ricerca_label" for="edt_parolachiave">Parola chiave</label>
+                <div class="input-group">
+                    <div class="input-group-text"><span class="material-symbols-outlined">
+key_vertical
+</span></div>
+                    <input type="text" class="form-control" id="edt_parolachiave"
+                        placeholder="Inserisci una parola chiave">
+                </div>
+            </div>
 
+            <div class="col-1">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="cb_libri">
+                    <label class="form-check-label" for="cb_libri">
+                        Libro
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="cb_ebook">
+                    <label class="form-check-label" for="cb_ebook">
+                        E-book
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="cb_film">
+                    <label class="form-check-label" for="cb_film">
+                        Film
+                    </label>
+                </div>
+            </div>
+            <div class="col-2" style="text-align: center">
+                <button type="button" class="btn btn-success btn-lg " id="btn_cerca">Cerca</button>
+            </div>
+
+        </form>
     </div>
 
     <!-- bootstrap -->

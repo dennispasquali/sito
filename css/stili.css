@@ -15,4 +15,17 @@
     font-size: 200px;
 
 }
-  
+
+/* barra di ricerca */
+
+#barraRicerca {
+    padding: 8px;    
+}
+
+label.ricerca_label {
+    font-size: 23px;
+}
+
+button#btn_cerca{
+    width: 80%;
+}
