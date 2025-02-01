@@ -29,3 +29,49 @@ label.ricerca_label {
 button#btn_cerca{
     width: 80%;
 }
+
+/* miniature - card */
+div#miniature {
+    margin-top: 50px;
+}
+
+img.imgDiCard {
+    height: 336px;
+}
+
+.maxDueRighe {    
+    overflow: hidden;              /* Nasconde il testo che esce dal box */
+    text-overflow: ellipsis;       /* Mostra i puntini di sospensione quando il testo è troppo lungo */
+    display: -webkit-box;          /* Utilizzo del modello a box flessibili */
+    -webkit-line-clamp: 2;         /* Limita a due righe il testo */
+    -webkit-box-orient: vertical;  /* Imposta l'orientamento del box */
+    height: 48px;      
+}
+
+a.btn-dettagli {
+    width: 80%;
+}
+
+/* finestra modale dei dettagli */
+h1.titoloModaleDettagli {
+    overflow: hidden;              /* Nasconde il testo che esce dal box */
+    text-overflow: ellipsis;       /* Mostra i puntini di sospensione quando il testo è troppo lungo */
+    display: -webkit-box;          /* Utilizzo del modello a box flessibili */
+    -webkit-line-clamp: 1;         /* Limita a due righe il testo */
+    -webkit-box-orient: vertical;  /* Imposta l'orientamento del box */
+}
+
+h1.titoloModaleDettagli > span {
+    font-weight: 100;
+    font-style: italic;
+}
+
+img.imgDiModaleDettagli {
+    height: 345px;
+    width: 100%;
+    object-fit: contain; /*contain*/
+}
+
+div.sinossiDiModaleDettagli {
+    font-size: 20px;
+}

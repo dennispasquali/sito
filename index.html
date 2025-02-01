@@ -18,6 +18,8 @@
 
     <!-- google icons -->
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=starEmpty" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0&icon_names=starFull" />
 
 </head>
 
@@ -72,9 +74,11 @@
             <div class="col-3">
                 <label class="form-label ricerca_label" for="edt_parolachiave">Parola chiave</label>
                 <div class="input-group">
-                    <div class="input-group-text"><span class="material-symbols-outlined">
-key_vertical
-</span></div>
+                    <div class="input-group-text">
+                        <span class="material-symbols-outlined">
+                            key_vertical
+                        </span>
+                    </div>
                     <input type="text" class="form-control" id="edt_parolachiave"
                         placeholder="Inserisci una parola chiave">
                 </div>
@@ -106,6 +110,101 @@ key_vertical
 
         </form>
     </div>
+
+    <!-- miniature -->
+    <div class="container text-center" id="miniature">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <img src="img/copertina1.jpg" class="card-img-top imgDiCard" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title maxDueRighe">Le pagine della nostra vita</h5>
+                        <p class="card-text maxDueRighe">Nicholas Sparks</p>
+                        <a href="#" class="btn btn-outline-success btn-dettagli" data-bs-toggle="modal" data-bs-target="#modal_dettagli">Dettagli</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/copertina2.jpg" class="card-img-top imgDiCard" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title maxDueRighe">101 storie zen</h5>
+                        <p class="card-text maxDueRighe">Nyogen Senzaki <br> Paul Reps </p>
+                        <a href="#" class="btn btn-outline-success btn-dettagli">Dettagli</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/copertina3.jpg" class="card-img-top imgDiCard" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title maxDueRighe">Il codice da Vinci</h5>
+                        <p class="card-text maxDueRighe">Dan Brown</p>
+                        <a href="#" class="btn btn-outline-success btn-dettagli">Dettagli</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/copertina4.jpg" class="card-img-top imgDiCard" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title maxDueRighe">Magia</h5>
+                        <p class="card-text maxDueRighe">W. B. Yeats</p>
+                        <a href="#" class="btn btn-outline-success btn-dettagli">Dettagli</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/copertina5.jpg" class="card-img-top imgDiCard" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title maxDueRighe">Storia di una famiglia e di una impresa Storia di una
+                            famiglia e di una impresa</h5>
+                        <p class="card-text maxDueRighe">Grimaldi Armatori Grimaldi Armatori Grimaldi Armatori Grimaldi
+                            Armatori</p>
+                        <a href="#" class="btn btn-outline-success btn-dettagli">Dettagli</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- finestra modale per i dettagli delle miniature -->
+    <div class="modal fade" id="modal_dettagli" tabindex="-1" aria-labelledby="modal_dettagliLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5 titoloModaleDettagli" id="modal_dettagliLabel">
+                Storia di una famiglia e di una impresa - <span>Grimaldi Armatori</span> -
+              </h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container text-center">
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/copertina5.jpg" class="card-img-top imgDiModaleDettagli " alt="...">
+                      </div>
+                      <div class="col-8 sinossiDiModaleDettagli" >
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores impedit iure totam vitae fugiat, animi nobis magnam consequuntur quis ad. Fugiat suscipit, nihil porro fuga molestias natus eum cum quibusdam.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam reiciendis officiis ratione repudiandae velit tempore! Non, vitae? Qui, quas? Minus repudiandae ipsum corrupti eaque, laudantium accusantium? Non adipisci recusandae necessitatibus.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam consequatur accusamus reiciendis earum labore nemo totam cum quibusdam ipsam. Quia doloribus aperiam impedit temporibus eius nisi consectetur vero labore optio?
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-4">
+                        <span class="material-symbols-outlined">starFull</span>
+                        <span class="material-symbols-outlined">starFull</span>
+                        <span class="material-symbols-outlined">starFull</span>
+                        <span class="material-symbols-outlined">starFull</span>
+                        <span class="material-symbols-outlined">starEmpty</span>
+                    </div>
+                  </div>
+            </div>            
+          </div>
+        </div>
+      </div>
 
     <!-- bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
