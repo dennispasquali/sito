@@ -31,8 +31,20 @@ button#btn_cerca{
 }
 
 /* miniature - card */
+div.card:hover {
+    transform: scale(1.05);
+}
+div.card {
+    transition: transform 0.3s ease;
+}
+
 div#miniature {
     margin-top: 50px;
+}
+
+div#miniature a:link {
+    text-decoration: none;
+    color: black;
 }
 
 img.imgDiCard {
@@ -74,4 +86,6 @@ img.imgDiModaleDettagli {
 
 div.sinossiDiModaleDettagli {
     font-size: 20px;
+    height: 345px;
+    overflow-y: auto;
 }
