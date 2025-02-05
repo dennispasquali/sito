@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* barra di intestazione */
 #logo_curie, #logo_biblio {
     width: 75px;
@@ -92,4 +93,9 @@ div.sinossiDiModaleDettagli {
 
 .parolaChiave {
     background-color: rgba(var(--bs-secondary-color-rgb), 0.5) /* Replace with your desired RGB values */
+=======
+/*barra di intestazione*/
+#logo_curie, #logo_biblio{
+    width: 75px;
+>>>>>>> 13b173f59f9394cd6a9e616bd52618f75d1ce834
 }
