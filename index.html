@@ -70,14 +70,14 @@
                 </div>
             </div>
             <div class="col-3">
-                <label class="form-label ricerca_label" for="edt_parolachiave">Parola chiave</label>
+                <label class="form-label ricerca_label" for="edt_bg-dark text-white rounded px-2 py-1">Parola chiave</label>
                 <div class="input-group">
                     <div class="input-group-text">
                         <span class="material-symbols-outlined">
                             key_vertical
                         </span>
                     </div>
-                    <input type="text" class="form-control" id="edt_parolachiave"
+                    <input type="text" class="form-control" id="edt_bg-dark text-white rounded px-2 py-1"
                         placeholder="Inserisci una parola chiave">
                 </div>
             </div>
@@ -114,7 +114,7 @@
         <div class="row">
             <div class="col">
                 <a href="#" data-bs-toggle="modal" data-bs-target="#modal_dettagli">
-                    <div class="card">
+                    <div class="card cardMiniature">
                         <img src="img/copertina1.jpg" class="card-img-top imgDiCard" alt="...">
                         <div class="card-body">
                             <h5 class="card-title maxDueRighe">Le pagine della nostra vita</h5>
@@ -125,7 +125,7 @@
             </div>
             <div class="col">
                 <a href="#" data-bs-toggle="modal" data-bs-target="#modal_dettagli">
-                    <div class="card">
+                    <div class="card cardMiniature">
                         <img src="img/copertina2.jpg" class="card-img-top imgDiCard" alt="...">
                         <div class="card-body">
                             <h5 class="card-title maxDueRighe">101 storie zen</h5>
@@ -136,7 +136,7 @@
             </div>
             <div class="col">
                 <a href="#" data-bs-toggle="modal" data-bs-target="#modal_dettagli">                
-                    <div class="card">
+                    <div class="card cardMiniature">
                         <img src="img/copertina3.jpg" class="card-img-top imgDiCard" alt="...">
                         <div class="card-body">
                             <h5 class="card-title maxDueRighe">Il codice da Vinci</h5>
@@ -147,7 +147,7 @@
             </div>
             <div class="col">
                 <a href="#" data-bs-toggle="modal" data-bs-target="#modal_dettagli">                
-                    <div class="card">
+                    <div class="card cardMiniature">
                         <img src="img/copertina4.jpg" class="card-img-top imgDiCard" alt="...">
                         <div class="card-body">
                             <h5 class="card-title maxDueRighe">Magia</h5>
@@ -158,7 +158,7 @@
             </div>
             <div class="col">
                 <a href="#" data-bs-toggle="modal" data-bs-target="#modal_dettagli">
-                    <div class="card">
+                    <div class="card cardMiniature">
                         <img src="img/copertina5.jpg" class="card-img-top imgDiCard" alt="...">
                         <div class="card-body">
                             <h5 class="card-title maxDueRighe">Storia di una famiglia e di una impresa Storia di una
@@ -195,7 +195,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="row">
+                  <div class="row" style="margin-top: 16px; margin-left: 8px">
                     <div class="col-4">
                         <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffd700"><path d="m233-120 65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z"/></svg>
                         <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffd700"><path d="m233-120 65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z"/></svg>
@@ -204,9 +204,66 @@
                         <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffd700"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z"/></svg>
                     </div>
                     <div class="col-8 text-end" >
-                        Lorem psum dolor
+                            <span class="bg-dark text-white rounded px-2 py-1">Lorem</span>
+                            <span class="bg-dark text-white rounded px-2 py-1">psum</span> 
+                            <span class="bg-dark text-white rounded px-2 py-1">dolor</span>
                     </div>
                   </div>
+                  <div class="accordion"  style="margin-top: 24px;" id="accordionExample">
+
+                    <!-- Primo Elemento -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button bg-white text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Commenti (3)
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body" style="overflow-y: auto; height: 240px;">
+                                <!-- Contenuto lungo per testare lo scroll -->
+                                <div class="card p-3 border rounded shadow-sm mt-3">
+                                    <div class="d-flex align-items-start">
+                                        <img src="profile (2).png" alt="User" class="rounded-circle me-3">
+                                        <div>
+                                            <h6 class="mb-1">Mario Rossi</h6>
+                                            <p class="text-muted small">2 ore fa</p>
+                                            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero facere fugiat atque exercitationem eaque, excepturi accusantium vel architecto officiis? Amet minima quam quasi nulla explicabo voluptatibus aut, iusto aliquid quo?</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card p-3 border rounded shadow-sm mt-3">
+                                    <div class="d-flex align-items-start">
+                                        <img src="profile (2).png" alt="User" class="rounded-circle me-3">
+                                        <div>
+                                            <h6 class="mb-1">Mario Rossi</h6>
+                                            <p class="text-muted small">2 ore fa</p>
+                                            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero facere fugiat atque exercitationem eaque, excepturi accusantium vel architecto officiis? Amet minima quam quasi nulla explicabo voluptatibus aut, iusto aliquid quo?</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card p-3 border rounded shadow-sm mt-3">
+                                    <div class="d-flex align-items-start">
+                                        <img src="profile (2).png" alt="User" class="rounded-circle me-3">
+                                        <div>
+                                            <h6 class="mb-1">Mario Rossi</h6>
+                                            <p class="text-muted small">2 ore fa</p>
+                                            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero facere fugiat atque exercitationem eaque, excepturi accusantium vel architecto officiis? Amet minima quam quasi nulla explicabo voluptatibus aut, iusto aliquid quo?</p>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+
+                            <div class="accordion-body">
+                                <div class="row" style="margin: auto">
+                                    <button class="btn btn-outline-success" type="submit">Aggiungi Un Commento</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    
+            
+                </div>
             </div>            
           </div>
         </div>

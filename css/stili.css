@@ -31,10 +31,10 @@ button#btn_cerca{
 }
 
 /* miniature - card */
-div.card:hover {
+.cardMiniature:hover {
     transform: scale(1.05);
 }
-div.card {
+.cardMiniature {
     transition: transform 0.3s ease;
 }
 
@@ -88,4 +88,8 @@ div.sinossiDiModaleDettagli {
     font-size: 20px;
     height: 345px;
     overflow-y: auto;
+}
+
+.parolaChiave {
+    background-color: rgba(var(--bs-secondary-color-rgb), 0.5) /* Replace with your desired RGB values */
 }
